@@ -11,9 +11,6 @@ import SoundPlayer from './SoundPlayer'
        <div className="ghibli-bg-gif">
          <img text-align="center" src="../original2.png" alt="" height="500" width="500" />
        </div>
-       <audio autoPlay>
-          <source src="../OneSummersDay.mp3" type="audio/mpeg" />
-        </audio>
      </div>
    )
 }

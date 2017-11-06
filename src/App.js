@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar/index'
 import { Route } from 'react-router-dom'
@@ -13,6 +12,9 @@ class App extends Component {
         <NavBar />
         <Route exact path="/" component={HomePage} />
         <Route exact path="/movies" component={MoviesContainer} />
+        <audio controls autoPlay>
+           <source src="../OneSummersDay.mp3" type="audio/mpeg" />
+        </audio>
       </div>
     )
   }
