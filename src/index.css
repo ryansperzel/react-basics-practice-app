@@ -3,3 +3,24 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.ghibli-header {
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+.ghibli-bg-gif {
+  background-image: url(totoro-bg-home.gif);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.no-display {
+  display: none;
+}
